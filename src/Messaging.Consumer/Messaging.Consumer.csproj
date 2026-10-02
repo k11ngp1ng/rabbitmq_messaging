@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Messaging.Contracts\Messaging.Contracts.csproj" />
+    <ProjectReference Include="..\Messaging.Processing\Messaging.Processing.csproj" />
     <PackageReference Include="RabbitMQ.Client" Version="7.2.2" />
   </ItemGroup>
 

@@ -14,3 +14,4 @@ jobs:
           dotnet-version: 10.0.x
       - run: dotnet restore RabbitMqMessaging.slnx --configfile NuGet.Config
       - run: dotnet build RabbitMqMessaging.slnx --configuration Release --no-restore --warnaserror
+      - run: dotnet test RabbitMqMessaging.slnx --configuration Release --no-build
